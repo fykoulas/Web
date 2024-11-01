@@ -1,0 +1,15 @@
+ul {
+    background-color: aqua;
+    list-style:lower-greek
+}
+
+ul li {
+    background-color: brown;
+    color: rgb(144, 144, 189);
+}
+
+ol li {
+    background-color: green;
+    color: rgb(128, 26, 26);
+    list-style: circle;
+}
