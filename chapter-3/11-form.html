@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/11-form.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <form>
             <h1>Φόρμα Πληρωμής</h1>
             <div>
@@ -28,8 +28,11 @@
                     </div>
                 </fieldset>
                 <div>
-                    <label for="username">Username: </label>
-                    <input type="text" name="username" id="username">
+                    <label for="username">
+                        <span>Username:</span>
+                        <strong><abbr title="Required">*</abbr></strong>
+                    </label>
+                    <input type="text" name="username" id="username" required>
                 </div>
                 <div>
                     <label for="password">Password: </label>
