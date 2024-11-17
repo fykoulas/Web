@@ -1,8 +1,8 @@
 div[class^=box] {
-    width: 9cqi;
+    width:400px;
     height: 100px;
-    margin: 5px;
-    background-color: lightblue;   
+    margin: 5px 5px;
+    background-color: lightblue;
 }
 
 .container {
