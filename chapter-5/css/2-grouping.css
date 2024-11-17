@@ -16,7 +16,7 @@
 header {
     display: flex;
     background-color: var(--color-aueb);
-    height: 120px;
+    height: 120px;   
 }
 
 nav{

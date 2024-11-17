@@ -1,8 +1,13 @@
 div[class^=box] {
-    width:400px;
+    width: 300px;
     height: 100px;
     margin: 5px 5px;
     background-color: lightblue;
+    text-align: center;
+    line-height: 15px;
+    color: rgb(184, 18, 18);
+    lett
+       
 }
 
 .container {
@@ -11,3 +16,11 @@ div[class^=box] {
     display: flex;
     flex-wrap: wrap;
 }
+
+a:focus {
+    outline: 5px solid blue;
+}
+
+a:visited {
+    color: rgb(196, 193, 32);
+}       
