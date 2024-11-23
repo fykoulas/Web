@@ -1,0 +1,141 @@
+* {
+    border: 1px solid rgb(238, 237, 237);
+    box-sizing: border-box;
+}
+
+:root {
+    --full-width: 45vw;
+    --partial-width: 40vw;
+    --full-height: 100vh;
+    --body-color: rgb(221, 221, 221);
+    --color-white: #fff;
+    --min-height-45vh: 45vh;
+    --min-height-60px: 60px;
+    --min-height-48px: 48px;
+    --color-bluelight: #609dd6;
+    --color-blueauth: #6598c8;
+    --color-gray: rgb(205, 202, 202, 0.5);
+    --color-bluelink: rgb(42, 100, 63);
+    --font-weight-600: 600;
+}
+
+body {
+    height: 50%;
+    background-color: var(--body-color);
+}
+
+.wrapper {
+    width: 540px;
+	margin: 30px auto;
+	background-color: var(--body-color);
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px -3px #000;
+}
+
+.login-gov {
+    background-color: var(--color-white);
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.img-w {
+    width: auto;
+}
+
+.img-h {
+    height: 60px;
+}
+
+.min-height-60px {
+    min-height: var(--min-height-60px)
+}
+
+.min-height-45vh {
+    min-height: var(--min-height-45vh);
+}
+
+.dflex-sb-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.full-width {
+    width: var(--full-width);
+}
+
+.auth-text {
+    font-size: 24px;
+    background-color: var(--color-blueauth);
+    padding: 4px;
+    color: var(--color-white);
+  
+}
+
+.lg-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.font-sans {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.font-strong {
+    font-weight: bold;
+}
+
+.xlg-text {
+    font-size: 26px;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.m-top {
+    margin-top: 15px;
+}
+
+.m-bottom {
+    margin-bottom: 30px;
+}
+
+.line {
+    width: 100%;         
+    height: 1px;        
+    background-color: #000;
+    margin: 10px 0;
+}
+
+.item-large {
+    font-size: 14px;
+    width: 100%;
+    padding: 5px;
+}
+
+.color-bluelight {
+    background-color: var(--color-bluelight);
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.no-border {
+    border: none
+}
